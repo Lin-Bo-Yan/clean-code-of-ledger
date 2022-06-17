@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/income_expenses_navigation"
+    app:startDestination="@id/menuExpenses">
+
+    <fragment
+        android:id="@+id/menuRevenue"
+        android:name="com.example.cleancodeofledger.Fragment.incomeFragment"
+        android:label="income_fragment"
+        tools:layout="@layout/income_fragment" />
+    <fragment
+        android:id="@+id/menuExpenses"
+        android:name="com.example.cleancodeofledger.Fragment.expensesFragment"
+        android:label="expenses_fragment"
+        tools:layout="@layout/expenses_fragment" />
+</navigation>

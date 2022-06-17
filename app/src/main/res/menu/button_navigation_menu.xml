@@ -2,12 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menuLedger"
+        android:icon="@drawable/ic_ledger"
         android:title="@string/ledger"/>
     <item
-        android:id="@+id/menuMakeNote"
+        android:id="@+id/menuNote"
+        android:icon="@drawable/ic_border"
         android:title="@string/makeNote"/>
     <item
         android:id="@+id/menuNewAccount"
+        android:icon="@drawable/ic_group_add"
         android:title="@string/newAccount"/>
 
 </menu>

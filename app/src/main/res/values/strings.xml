@@ -18,6 +18,8 @@
     <string name="ledger">帳本</string>
     <string name="newAccount">帳戶</string>
 
-    <string name="navigation_expenditure_Revenue">收入</string>
-    <string name="navigation_expenditure_Expenses">支出</string>
+    <string name="navigation_revenue">收入</string>
+    <string name="navigation_expenses">支出</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
