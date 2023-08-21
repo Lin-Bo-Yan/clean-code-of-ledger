@@ -21,4 +21,6 @@
     <string name="navigation_revenue">收入</string>
     <string name="navigation_expenses">支出</string>
 
+    <string name="sure_button">確定</string>
+
 </resources>
